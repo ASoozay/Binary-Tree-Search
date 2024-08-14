@@ -1,3 +1,9 @@
+// A Soozay
+// 8/12/24
+// Binary Tree Search
+// Provides a space to test binary tree operations
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 import java.security.SecureRandom;
 
 public class TreeTest {
@@ -37,7 +43,9 @@ public class TreeTest {
         tree2.insertNode(5);
         tree2.insertNode(71);
         tree2.insertNode(30);
+        
         tree2.outputTree();
+
     }
 
     
