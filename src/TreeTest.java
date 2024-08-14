@@ -7,7 +7,6 @@ public class TreeTest {
 
         System.out.println("Inserting the following values: ");
 
-        // insert 10 random integers from 0-99 in tree
         for (int i = 1; i <= 10; i++) {
             int value = randomNumber.nextInt(100);
             System.out.printf("%d ", value);
@@ -26,7 +25,6 @@ public class TreeTest {
 
         System.out.printf("%n%nHorizontal Tree Display%n");
 
-        //tree.outputTree();
 
         Tree<Integer> tree2 = new Tree<>();
         tree2.insertNode(97);
@@ -41,4 +39,6 @@ public class TreeTest {
         tree2.insertNode(30);
         tree2.outputTree();
     }
+
+    
 }
